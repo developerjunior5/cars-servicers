@@ -22,5 +22,5 @@ ScrollReveal().reveal("#btn-appointment", {
 
 ScrollReveal().reveal("#services", {
   ...scrollRevealOption,
-  interval: 1500,
+  interval: 500,
 });
