@@ -667,10 +667,6 @@ video {
   left: 1.25rem;
 }
 
-.left-\[-100\%\] {
-  left: -100%;
-}
-
 .right-0 {
   right: 0px;
 }
@@ -785,6 +781,10 @@ video {
   margin-left: 1rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .ml-8 {
   margin-left: 2rem;
 }
@@ -819,6 +819,10 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
 }
 
 .box-border {
@@ -2016,6 +2020,11 @@ video {
   background-color: rgb(23 37 84 / var(--tw-bg-opacity));
 }
 
+.bg-orange-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 87 51 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -2170,8 +2179,8 @@ video {
   padding-top: 1.5rem;
 }
 
-.pt-\[140px\] {
-  padding-top: 140px;
+.pt-\[150px\] {
+  padding-top: 150px;
 }
 
 .text-left {
@@ -2230,20 +2239,24 @@ video {
   vertical-align: super;
 }
 
+.font-Dosis {
+  font-family: Dosis, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .font-Inria {
   font-family: Inria, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.font-Inter {
-  font-family: Inter, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.font-Port {
+  font-family: Port Lligat Sans, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-.text-\[11px\] {
-  font-size: 11px;
+.font-Mina {
+  font-family: Mina, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .text-\[12px\] {
@@ -2256,6 +2269,10 @@ video {
 
 .text-\[14px\] {
   font-size: 14px;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
 }
 
 .text-\[16px\] {
@@ -2292,6 +2309,10 @@ video {
 
 .font-medium {
   font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .font-semibold {
@@ -2935,8 +2956,8 @@ video {
     padding-left: 160px;
   }
 
-  .md\:pt-\[190px\] {
-    padding-top: 190px;
+  .md\:pt-20 {
+    padding-top: 5rem;
   }
 
   .md\:text-\[15px\] {
@@ -2945,6 +2966,10 @@ video {
 
   .md\:text-\[16px\] {
     font-size: 16px;
+  }
+
+  .md\:text-\[18px\] {
+    font-size: 18px;
   }
 
   .md\:text-\[20px\] {
@@ -2965,8 +2990,20 @@ video {
     display: none;
   }
 
+  .lg\:w-\[770px\] {
+    width: 770px;
+  }
+
+  .lg\:w-\[790px\] {
+    width: 790px;
+  }
+
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:text-\[70px\] {
+    font-size: 70px;
   }
 }
 
